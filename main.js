@@ -51,11 +51,11 @@ if (unit === "usd") {
 
         // 2nd output the receive money
         let receiveUSD = unitVnd/ exchangeRateUsd;
-        console.log("You get: " + formatCurrency("usd",receiveUSD.toFixed(2))
+        console.log("You get: " + formatCurrency("usd",receiveUSD.toFixed(2)))
     } else if (currency === '2') {
         let unitUsd = prompt("How much USD to change: ")
         let receiveVND = unitUsd * exchangeRateUsd;
-        console.log("You get: " + formatCurrency("vnd",receiveVND.toFixed(2))
+        console.log("You get: " + formatCurrency("vnd",receiveVND.toFixed(2)))
     } else {
         console.log('Not available')
     }
@@ -67,11 +67,11 @@ if (unit === "usd") {
 
         // 2nd output the receive money
         let receiveEuro = unitVnd / exchangeRateEuro;
-        console.log("You get: " + formatCurrency("euro",receiveEuro.toFixed(2))
+        console.log("You get: " + formatCurrency("euro",receiveEuro.toFixed(2)))
     } else if (currency === '2') {
         let unitEuro = prompt("How much Euro to change: ")
         let receiveVND = unitEuro * exchangeRateEuro;
-        console.log("You get: " + formatCurrency("vnd",receiveVND.toFixed(2))
+        console.log("You get: " + formatCurrency("vnd",receiveVND.toFixed(2)))
     } else {
         console.log('Not available')
     }
